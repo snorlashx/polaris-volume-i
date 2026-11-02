@@ -1,9 +1,10 @@
 const cards = [
-  { id: '003/005', title: 'Goldfish Brain', rarity: 'SUPER MEGA COMMON', meta: 'Somehow still surprised.', image: 'assets/003-goldfish-brain.webp' },
-  { id: '002/005', title: 'After Dark Polaris', rarity: 'COMMON', meta: 'Frequently sighted at unreasonable hours.', image: 'assets/002-after-dark-polaris.webp' },
-  { id: '004/005', title: 'Horse Brain Activated', rarity: 'RARE', meta: 'Conversation successfully derailed.', image: 'assets/004-horse-brain-activated.webp' },
-  { id: '005/005', title: 'PAWS Worm Division', rarity: 'RARE', meta: 'The worms did not cooperate.', image: 'assets/005-paws-worm-division.webp' },
-  { id: '001/005', title: 'Mr. Mshmsh', rarity: 'ULTRA RARE', meta: 'One second. Maximum psychic damage.', image: 'assets/001-mr-mshmsh.webp' }
+  const cards = [
+  { id: '003/005', title: 'Goldfish Brain', rarity: 'SUPER MEGA COMMON', meta: 'Somehow still surprised.', image: '003-goldfish-brain.webp' },
+  { id: '002/005', title: 'After Dark Polaris', rarity: 'COMMON', meta: 'Frequently sighted at unreasonable hours.', image: '002-after-dark-polaris.webp' },
+  { id: '004/005', title: 'Horse Brain Activated', rarity: 'RARE', meta: 'Conversation successfully derailed.', image: '004-horse-brain-activated.webp' },
+  { id: '005/005', title: 'PAWS Worm Division', rarity: 'RARE', meta: 'The worms did not cooperate.', image: '005-paws-worm-division.webp' },
+  { id: '001/005', title: 'Mr. Mshmsh', rarity: 'ULTRA RARE', meta: 'One second. Maximum psychic damage.', image: '001-mr-mshmsh.webp' }
 ];
 
 const screens = [...document.querySelectorAll('.screen')];
