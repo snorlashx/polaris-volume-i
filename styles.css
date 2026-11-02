@@ -96,3 +96,26 @@ footer { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; col
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+/* Fix card reveal/backface rendering */
+.card-back {
+  transform: rotateY(0deg);
+  opacity: 1;
+  z-index: 2;
+}
+
+.card-face {
+  transform: rotateY(180deg);
+  opacity: 0;
+  z-index: 1;
+}
+
+.card-shell.revealed .card-back {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card-shell.revealed .card-face {
+  opacity: 1;
+  z-index: 2;
+}
