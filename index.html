@@ -5,51 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#050509" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
+
   <meta property="og:title" content="Polaris Collection — Volume I" />
   <meta property="og:description" content="10★ reward unlocked. Five cards inside." />
+
   <title>Polaris Collection — Volume I</title>
-<link rel="stylesheet" href="styles.css?v=2" />
+
+  <link rel="stylesheet" href="./styles.css?v=3" />
 </head>
+
 <body>
   <div class="stars" aria-hidden="true"></div>
+
   <main class="app" id="app">
+
     <section class="screen intro active" id="intro" aria-labelledby="intro-title">
       <div class="cover-wrap">
-        <img class="cover" src="cover.webp" alt="Polaris Collection Volume I cover" />
+        <img
+          class="cover"
+          src="./cover.webp"
+          alt="Polaris Collection Volume I cover"
+        />
         <div class="cover-shine" aria-hidden="true"></div>
       </div>
+
       <div class="intro-copy">
         <p class="eyebrow">10 ★ REWARD UNLOCKED</p>
         <h1 id="intro-title">Polaris Collection</h1>
         <p class="volume">Volume I · 5 cards</p>
-        <p class="fineprint">Issued by PAWS. No refunds. No exchanges. No explanation.</p>
+        <p class="fineprint">
+          Issued by PAWS. No refunds. No exchanges. No explanation.
+        </p>
+
         <button class="primary" id="openPack">OPEN PACK</button>
       </div>
     </section>
 
     <section class="screen pack" id="pack" aria-live="polite">
+
       <div class="pack-topbar">
-        <button class="ghost" id="backToCover" aria-label="Back to cover">←</button>
+        <button class="ghost" id="backToCover" aria-label="Back to cover">
+          ←
+        </button>
+
         <div>
           <p class="eyebrow">POLARIS COLLECTION · VOLUME I</p>
           <p class="progress" id="progress">Card 1 of 5</p>
         </div>
+
         <span class="stars-earned">★★★★★★★★★★</span>
       </div>
 
       <div class="reveal-stage" id="revealStage">
+
         <div class="card-shell" id="cardShell">
-          <div class="card-back" id="cardBack" role="button" tabindex="0" aria-label="Reveal card">
+
+          <div
+            class="card-back"
+            id="cardBack"
+            role="button"
+            tabindex="0"
+            aria-label="Reveal card"
+          >
             <div class="north-star">✦</div>
             <div class="back-title">POLARIS</div>
             <div class="back-subtitle">COLLECTION</div>
             <div class="back-volume">VOLUME I</div>
             <div class="tap-hint">TAP TO REVEAL</div>
           </div>
+
           <div class="card-face" id="cardFace">
             <div class="rarity-pop" id="rarityPop"></div>
-            <img id="cardImage" src="" alt="" />
+
+            <img
+              id="cardImage"
+              src=""
+              alt=""
+            />
           </div>
+
         </div>
       </div>
 
@@ -60,25 +94,51 @@
       </div>
 
       <div class="actions">
-        <button class="primary hidden" id="nextCard">NEXT CARD</button>
-        <button class="secondary hidden" id="viewCollection">VIEW COLLECTION</button>
+        <button class="primary hidden" id="nextCard">
+          NEXT CARD
+        </button>
+
+        <button class="secondary hidden" id="viewCollection">
+          VIEW COLLECTION
+        </button>
       </div>
+
     </section>
 
-    <section class="screen collection" id="collection" aria-labelledby="collection-title">
+    <section
+      class="screen collection"
+      id="collection"
+      aria-labelledby="collection-title"
+    >
+
       <div class="collection-heading">
         <p class="eyebrow">PACK COMPLETE</p>
-        <h2 id="collection-title">Polaris Collection · Volume I</h2>
+        <h2 id="collection-title">
+          Polaris Collection · Volume I
+        </h2>
         <p>5 / 5 collected. Against all reasonable judgment.</p>
       </div>
+
       <div class="gallery" id="gallery"></div>
+
       <div class="collection-actions">
-        <button class="primary" id="replay">REPLAY PACK</button>
+        <button class="primary" id="replay">
+          REPLAY PACK
+        </button>
       </div>
+
       <footer>
-        <span>PAWS</span><span>✦</span><span>POLARIS COLLECTION</span><span>✦</span><span>VOLUME I</span>
+        <span>PAWS</span>
+        <span>✦</span>
+        <span>POLARIS COLLECTION</span>
+        <span>✦</span>
+        <span>VOLUME I</span>
       </footer>
+
     </section>
+
   </main>
-<script src="script.js?v=2"></script></body>
+
+  <script src="./script.js?v=3"></script>
+</body>
 </html>
