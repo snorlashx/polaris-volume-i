@@ -1,5 +1,4 @@
 const cards = [
-  const cards = [
   { id: '003/005', title: 'Goldfish Brain', rarity: 'SUPER MEGA COMMON', meta: 'Somehow still surprised.', image: '003-goldfish-brain.webp' },
   { id: '002/005', title: 'After Dark Polaris', rarity: 'COMMON', meta: 'Frequently sighted at unreasonable hours.', image: '002-after-dark-polaris.webp' },
   { id: '004/005', title: 'Horse Brain Activated', rarity: 'RARE', meta: 'Conversation successfully derailed.', image: '004-horse-brain-activated.webp' },
